@@ -59,10 +59,9 @@ const AppLayout = props => {
   } = useLaunches(onSuccessSound, onAbortSound, onFailureSound);
 
   const planets = usePlanets();
-  console.log(planets)
   
   return <div className={classes.content}>
-    {/* <Header onNav={animateFrame} />
+    <Header onNav={animateFrame} />
     <Centered className={classes.centered}>
       <Frame animate 
         show={frameVisible} 
@@ -99,7 +98,7 @@ const AppLayout = props => {
         )}
       </Frame>
     </Centered>
-    <Footer /> */}
+    <Footer />
   </div>;
 };
 
